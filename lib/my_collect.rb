@@ -1,18 +1,26 @@
-def my_collect(languages, students)
+def my_collect(array)
   i = 0
+  while i < array.length
+end
+new_array []
+
+
+
+def my_collect(languages, students)
+  
   language = []
-  languages.collect do |language|
-  while i < languages.length
+  |
+  
   language << yield (languages[i])
   i += 1
   end
   language.upcase
 end
 
-  i = 0
+ 
   student = []
-  students.collect do |student|
-  while i < students.length
+  
+  
   student << yield (students[i])
   i += 1
   end
